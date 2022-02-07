@@ -1,0 +1,58 @@
+{
+  "name": "@magic-libraries/replaceSlashSlash",
+  "version": "0.0.0",
+  "author": "Wizards & Witches",
+  "license": "AGPL-3.0",
+  "description": "@magic-libraries/replaceSlashSlash. replaces // in strings with /",
+  "homepage": "https://magic-libraries.github.io/replaceSlashSlash/",
+  "engines": {
+    "node": ">=14.15.4"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docsrc docs config.js",
+    "build": "NODE_ENV=production magic build",
+    "devbuild": "magic build --watch src",
+    "prod": "NODE_ENV=production magic build serve",
+    "dev": "magic dev --watch src",
+    "calls": "calls"
+  },
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-libraries/replaceSlashSlash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic-libraries/replaceSlashSlash/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/git-badges": "0.0.11",
+    "@magic-modules/light-switch": "0.0.10",
+    "@magic-modules/no-spy": "0.0.6",
+    "@magic-modules/pre": "0.0.11",
+    "@magic-themes/docs": "0.0.14",
+    "@magic/core": "0.0.136",
+    "@magic/format": "0.0.38",
+    "@magic/test": "0.2.6"
+  },
+  "keywords": [
+    "magic",
+    "client",
+    "browser",
+    "magic-libraries",
+    "replaceSlashSlash"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
