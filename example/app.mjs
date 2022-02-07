@@ -1,6 +1,6 @@
 export const state = {
-  title: '@magic-libraries/replaceSlashSlash',
-  description: '@magic-libraries/replaceSlashSlash replaces `//` in strings with `/`.',
+  title: '@magic-libraries/replace-slash-slash',
+  description: '@magic-libraries/replace-slash-slash replaces `//` in strings with `/`.',
 
   logotext: '@magic-libraries/replaceSlashSlash',
   menu: [
