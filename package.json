@@ -1,10 +1,10 @@
 {
-  "name": "@magic-libraries/replaceSlashSlash",
+  "name": "@magic-libraries/replace-slash-slash",
   "version": "0.0.0",
   "author": "Wizards & Witches",
   "license": "AGPL-3.0",
-  "description": "@magic-libraries/replaceSlashSlash. replaces // in strings with /",
-  "homepage": "https://magic-libraries.github.io/replaceSlashSlash/",
+  "description": "@magic-libraries/replace-slash-slash. replaces // in strings with /",
+  "homepage": "https://magic-libraries.github.io/replace-slash-slash/",
   "engines": {
     "node": ">=14.15.4"
   },
@@ -27,10 +27,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magic-libraries/replaceSlashSlash.git"
+    "url": "git+https://github.com/magic-libraries/replace-slash-slash.git"
   },
   "bugs": {
-    "url": "https://github.com/magic-libraries/replaceSlashSlash/issues"
+    "url": "https://github.com/magic-libraries/replace-slash-slash/issues"
   },
   "devDependencies": {
     "@magic-modules/git-badges": "0.0.11",
@@ -47,7 +47,7 @@
     "client",
     "browser",
     "magic-libraries",
-    "replaceSlashSlash"
+    "replace-slash-slash"
   ],
   "contributors": [
     {
