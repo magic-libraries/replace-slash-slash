@@ -52,3 +52,6 @@ and gets built and published to github using
 
 ##### 0.0.1
 first release
+
+##### 0.0.2
+update dependencies
